@@ -1,0 +1,4 @@
+__pycache__
+.DS_Store
+.vscode
+bert_api_docker/fine_tuned
