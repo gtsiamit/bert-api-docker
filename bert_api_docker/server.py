@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
-from inference import TextClassification
+from bert_api_docker.inference import TextClassification
 
 
 class InputData(BaseModel):

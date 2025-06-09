@@ -6,12 +6,14 @@ from transformers import (
 )
 from sklearn.preprocessing import LabelEncoder
 from torch import Tensor
+from pathlib import Path
 import pickle
 import torch
 
 
-MODEL_PATH = "./fine_tuned"
-LE_PATH = "./fine_tuned/le.pkl"
+file_path = Path(__file__).parent
+MODEL_PATH = str(file_path / "fine_tuned")
+LE_PATH = str(file_path / "fine_tuned/le.pkl")
 
 
 class TextClassification:
