@@ -69,5 +69,5 @@ The predict endpoint can be tested with the `Try it out` button in the interacti
 Below is shown the expected structure of the input anf output for the `/predict` endpoint. The input/output schemas are defined using Pydantic and automatically rendered in Swagger UI.
 ![Examples predict endpoint](media/api_usage.png)
 
-Below is an example of an actual request and response from the `/predict` endpoint whuch was was done for testing interactively via the Swagger UI.
+Below is an example of an actual request and response from the `/predict` endpoint which was was done for testing interactively via the Swagger UI.
 ![Testing predict endpoint](media/api_example.png)
